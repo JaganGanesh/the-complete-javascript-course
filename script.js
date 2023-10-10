@@ -1,4 +1,8 @@
-let javaScript = "amazing";
-if (javaScript === "boring") alert("Hello World!");
+let firstName = "Jagan";
+let lastName = "Ganesh";
+let profession = "Programmer";
+let years = 8;
 
-console.log(20 + 40 - 6 / 5);
+const PI = 3.14;
+
+console.log(firstName, lastName, PI);
