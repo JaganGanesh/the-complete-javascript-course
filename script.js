@@ -1,24 +1,18 @@
 /*
-    11. Data Types
-    In JavaScript value is neither Object or Primitive.
-    JavaScript has Dynamic Typing Language.
-
-    Primitive Data Types
-    1. Numbers
-    2. String
-    3. Boolean
-    4. Undefined
-    5. Null
-    6. Symbols (ES2015)
-    7. BigInt (ES2020)
+    12. let, const and var
 */
 
-let age = 29;
-let userName = "Jagan Ganesh";
-let hasJob = true;
-let children;
+// Let
+let currentYear = 2023;
+currentYear = 2024
 
-console.log(typeof age, age);
-console.log(typeof userName, userName);
-console.log(typeof hasJob, hasJob);
-console.log(typeof children, children);
+// Const
+const birthYear = 1993;
+
+console.log(currentYear, birthYear);
+
+// Var (this should be completely avoided)
+var userName = "Jagan";
+userName = "Ganesh";
+
+console.log(userName);
