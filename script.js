@@ -1,18 +1,29 @@
 /*
-    12. let, const and var
+    13. Basic Operators
 */
 
-// Let
-let currentYear = 2023;
-currentYear = 2024
+const currentYear = 2023;
+const ageJagan = currentYear - 1993;
 
-// Const
-const birthYear = 1993;
+console.log('Age:', ageJagan);
 
-console.log(currentYear, birthYear);
+// Operators
+console.log(ageJagan * 2, ageJagan / 2, ageJagan ** 2);
 
-// Var (this should be completely avoided)
-var userName = "Jagan";
-userName = "Ganesh";
+const firstName = "Jagan";
+const lastName = "Ganesh";
+console.log(firstName + ' ' + lastName);
 
-console.log(userName);
+// Assignment Operators
+let dataX = 10 + 5; // 15
+dataX += 10;        // 15 + 10
+dataX *= 10;        // 25 * 10
+dataX++;            // 250 + 1
+dataX--;            // 251 - 1
+console.log(dataX);
+
+// Comparison Operators
+console.log(currentYear > ageJagan);
+console.log(currentYear < ageJagan);
+console.log(currentYear >= ageJagan);
+console.log(currentYear <= ageJagan);
