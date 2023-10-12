@@ -1,18 +1,15 @@
 /*
-    Coding Challenge #1
+    17. Strings and Template Literals
 */
 
-const massMark = 65
-const heightMark = 6.2
-const massJohn = 82
-const heightJohn = 5.9
+const firstName = "Jagan";
+const lastName = "Ganesh";
+const job = "Developer";
 
-const BMIMark = massMark / (heightMark * heightMark);
-const BMIJohn = massJohn / (heightJohn * heightJohn);
+const currentYear = 2023;
+const birthYear = 1993;
 
-console.log('Mark', BMIMark);
-console.log('John', BMIJohn);
+const data = `I'm ${firstName} ${lastName}, 
+a ${currentYear - birthYear} years old ${job}!`;
 
-const markHigherBMI = BMIMark > BMIJohn;
-
-console.log('markHigherBMI', markHigherBMI);
+console.log(data);
