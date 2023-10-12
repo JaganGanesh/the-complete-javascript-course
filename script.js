@@ -1,29 +1,18 @@
 /*
-    13. Basic Operators
+    Coding Challenge #1
 */
 
-const currentYear = 2023;
-const ageJagan = currentYear - 1993;
+const massMark = 65
+const heightMark = 6.2
+const massJohn = 82
+const heightJohn = 5.9
 
-console.log('Age:', ageJagan);
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 
-// Operators
-console.log(ageJagan * 2, ageJagan / 2, ageJagan ** 2);
+console.log('Mark', BMIMark);
+console.log('John', BMIJohn);
 
-const firstName = "Jagan";
-const lastName = "Ganesh";
-console.log(firstName + ' ' + lastName);
+const markHigherBMI = BMIMark > BMIJohn;
 
-// Assignment Operators
-let dataX = 10 + 5; // 15
-dataX += 10;        // 15 + 10
-dataX *= 10;        // 25 * 10
-dataX++;            // 250 + 1
-dataX--;            // 251 - 1
-console.log(dataX);
-
-// Comparison Operators
-console.log(currentYear > ageJagan);
-console.log(currentYear < ageJagan);
-console.log(currentYear >= ageJagan);
-console.log(currentYear <= ageJagan);
+console.log('markHigherBMI', markHigherBMI);
