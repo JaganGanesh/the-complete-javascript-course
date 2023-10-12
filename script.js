@@ -1,15 +1,13 @@
 /*
-    17. Strings and Template Literals
+    18. Taking Decisions: if / else Statements
 */
 
-const firstName = "Jagan";
-const lastName = "Ganesh";
-const job = "Developer";
+const age = 19;
+const userName = "Jackie";
+const isOldEnough = 18;
 
-const currentYear = 2023;
-const birthYear = 1993;
-
-const data = `I'm ${firstName} ${lastName}, 
-a ${currentYear - birthYear} years old ${job}!`;
-
-console.log(data);
+if(age > isOldEnough) {
+    console.log(`${userName} is old enough to take license.`);
+} else {
+    console.log(`${userName} is too young, wait another ${isOldEnough - age} years.`);
+}
